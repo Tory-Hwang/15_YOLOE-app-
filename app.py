@@ -9,6 +9,7 @@ from ultralytics.models.yolo.yoloe.predict_vp import YOLOEVPSegPredictor
 from gradio_image_prompter import ImagePrompter
 from huggingface_hub import hf_hub_download
 
+
 # YOLOE 모델을 초기화하는 함수
 def init_model(model_id, is_pf=False):
     # 프롬프트 없는 모드 여부에 따라 파일 이름 결정
